@@ -10,7 +10,15 @@ The bot simulates human behavior using WhatsApp web interface. It uses Selenium 
 3. Create a WhatsApp group with any name and fix it in your conversation (you can be alone in this group);
 4. Write the name of the created group right after 'group_name' in the repository's file user_parameters.yaml;
 5. In the group, send the messages you want to be mass forwarded. It can be any kind: text, image, video, audio. The order of the messages is important, so the messages will be forwarded in the exaclty same order you put it on your WhatsApp group;
-6. Again inside the file user_parameters.yaml, type the amount of messages you want to foward right after 'historic_to_send'.
+6. Again inside the file user_parameters.yaml, type the amount of messages you want to foward right after 'historic_to_send'.<br>
 Example for steps 5 and 6: if you want to mass send 4 messages, you post them in your group in the exact order you want it to be forwarded. Then you go to the user_parameters.yaml and type the amount of messages your batch contains, in this case: 4. The bot will select the last 4 messages in the referenced group and forward it to the contact list.
 7. Run python script.py;
 8. Authorize WhatsApp web interface to log in through QR code.
+
+
+ToDos:
+- video of funcionality
+- add google chrome web driver instructions, credits and content
+- create yaml files
+- replace selenium functions for it to wait specific events
+- improve release systems
