@@ -21,4 +21,3 @@ ToDos:
 - add google chrome web driver instructions, credits and content
 - create yaml files
 - replace selenium functions for it to wait specific events
-- improve release systems
